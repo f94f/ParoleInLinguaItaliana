@@ -2,6 +2,7 @@
     <div class="scuola-body">
       <!-- <h1>{{ msg }}</h1> -->
       <img alt="Web Page logo" src="../../assets/piliLogo.png">
+      
       <van-row gutter="20">
         <van-col class="" span="10">
           <van-row :gutter="[0, 40]">
@@ -15,10 +16,12 @@
             <van-col class="box-3" span="24"></van-col>
           </van-row>
         </van-col>
+        
         <!-- <van-col class="" span="1"></van-col> -->
         <van-col class="box-1" span="13">
           <!-- <TestOne/> -->
         </van-col>
+      
       </van-row>
     </div>
 </template>
