@@ -1,24 +1,29 @@
 <template>
     <div class="container">
       <form v-if="!submitted" @submit.prevent="submitForm">
-        <h3>CONTACTANOS!</h3>
+        <h3>CONTACTANOS!/CONTATTACI!</h3>
         <label>
           <input type="email" name="email" placeholder="EMail" v-model="email" />
         </label>
         <label>
             <select id="topic" name="topic">
-              <option id="hiddenOption" value="" hidden>Elegir Topic</option>
-              <option value="esto">Esto</option>
-              <option value="Aquello">Aquello</option>
+              <option id="hiddenOption" value="" hidden>Elige argumento / Scegli argomento</option>
+              <option value="asesoria">Asesoria</option>
+              <option value="qcer">Cuadro común europeo / Quadro comune europeo</option>
+              <option value="cursos">Cursos / Corsi</option>
+              <option value="certificacion">Examen de certificación / Esame di certificazione</option>
+              <option value="ciudadania">Examen de ciudadanía / Esame di cittadinanza</option>
+              <option value="niveles">Niveles y evaluación / Livelli e valutazioni</option>
+              <option value="otro">Otro / Altro</option>
             </select>
         </label>
         <label>
           <textarea id="messageArea" name="message" placeholder="Message" v-model="message"></textarea>
         </label>
-        <button id="submitButton" type="submit">Submit</button>
+        <button id="submitButton" type="submit">Enviar / Invio</button>
       </form>
       <div v-if="submitted">
-        <p>Thank you for your message! We'll get back to you soon.</p>
+        <p>¡Gracias por tu mensaje! Te responderemos proximamaente. / Grazie per il messaggio! A breve avrai una risposta.</p>
       </div>
       <div v-if="error">
         <p>Error: {{ error }}</p>
@@ -34,7 +39,7 @@
         message: '',
         submitted: false,
         error: '',
-        endpoint: 'https://formcarry.com/s/rsb4tnQbjGR',
+        endpoint: 'https://formcarry.com/s/lv7JRJf9iIO',
       }
     },
     methods: {

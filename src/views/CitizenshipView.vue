@@ -1,5 +1,13 @@
 <template>
   <div class="context">
+  <!-- <div class="context">
+    <div class="argumento-section">
+      <h2>BIENVENIDOS A NUESTRA PAGINA WEB</h2>
+      <p><span class="italic">Parole In Lingua Italiana</span> es una joven y pequeña realidad con la cual queremos ayudar en el conocimiento de la lengua italiana y su cultura. </p> 
+      <p>Hemos acompañado y mediado a más de 2000 personas en su trayectoria y pasaje de la lengua nativa al idioma italiano; además de la preparación para la certificación oficial como competencia de la lengua italiana. </p>
+      <p>Te invitamos a interactuar con el menú de la derecha para entrar más en detalle con lo que te interesa. Exámenes, Cursos, Consejos, etc. </p>
+    </div>
+  </div> -->
   <div class="scene">
     <div class="book-wrap">
       <div class="left-side">
@@ -22,16 +30,15 @@
             <div class="corner2"></div>
             <div class="corner-fold"></div>
             <div class="page-text w-richtext">
-              <h3><strong>QUIENES SOMOS</strong></h3>
+              <h3><strong>EXAMEN DE CIUDADANÍA ITALIANA</strong></h3>
               <h6>por <a href="/">PAROLE IN LINGUA ITALIANA</a> (ESPAÑOL)</h6>
               <p></p>
+              <p>A partir del 4 de diciembre del año 2018 se introdujo el articulo 9.1 a la Ley No. 91 del 5 de 
+                febrero de 1992 en la cual se establecen los requisitos para la adquisición de la ciudadanía italiana.</p>
               <br/>
-              <p>Durante más de 20 años hemos conseguido la experiencia necesaria para ofrecer estrategias y 
-                métodos de enseñanza <span class="text-bold">por competencias.</span></p>
-              <br/>
-              <p><span class="text-sub">NUESTRO MÉTODO:</span> Favorece en nuestros alumnos el aprendizaje de 
-                manera significativa y autónoma; puesto que quien concibe bien, es capaz de expresarse con claridad.</p>
-              <br/>
+              <p>La <span class="text-bold">certificación de ciudadanía italiana</span> se realiza a través de 
+                cuatro <span class="text-bold">(4) pruebas:</span> una prueba escrita, una oral, una de escucha y 
+                una de comprensión de lectura y gramática incluida.</p>
             </div>
           </div>
         </div>
@@ -72,15 +79,16 @@
         <div class="layer-text right">
           <div class="page-right-2">
             <div class="page-text w-richtext">
-              <h3><strong>CHI SIAMO</strong></h3>
+              <h3><strong>ESAME CITTADINANZA ITALIANA</strong></h3>
               <h6>da <a href="/">PAROLE IN LINGUA ITALIANA</a> (ITALIANO) </h6>
               <p></p>
-              <p>Siamo due insegnanti, madrelingua italiana e madrelingua spagnola, qualificati, autori di libri didattici.</p>
+              <p>Dal 4 dicembre 2018 si è stabilito l'art. 9.1 alla legge 5 febbraio 1992 sui 
+                requisiti per l'acquisizione della cittadinanza italiana.</p>
               <br/>
-              <p>Per più di 20 anni abbiamo acquisito l'esperienza necessaria per offrire strategie e metodi di insegnamento <span class="text-bold">per competenze.</span></p>
-              <br/>
-              <p><span class="text-sub">Il NOSTRO METODO:</span> Consente ai nostri alunni di imparare in maniera significativa e autonoma, perché, chi comprende bene è in grado di esprimersi con chiarezza.</p>
-              <br/>
+              <p><span class="text-bold">La certificazione della cittadinanza</span> italiana si 
+                effettua attraverso quattro <span class="text-bold">(4) prove:</span> una prova 
+                scritta, una prova orale, una prova di ascolto e una prova di comprensione del 
+                testo che include la grammatica.</p>
             </div>
           </div>
         </div>
@@ -92,7 +100,7 @@
 
 <script>
   export default {
-    name: "AboutView",
+    name: "CitizenshipView",
   };
 </script>
 
@@ -367,8 +375,8 @@ a {
   flex: 1;
   border-top-left-radius: 4%;
   border-bottom-left-radius: 4%;
-  background-color: #d53613;
-  box-shadow: inset 4px -4px 4px 1px #d53613, inset 7px -7px 4px 0 #d53613;
+  background-color: #0e4326;
+  box-shadow: inset 4px -4px 4px 1px #0e4326, inset 7px -7px 4px 0 #0e4326;
   -webkit-perspective: 4000px;
   perspective: 4000px;
   -webkit-transform: translate3d(0px, 0px, -1px);
@@ -384,8 +392,8 @@ a {
   flex: 1;
   border-top-right-radius: 4%;
   border-bottom-right-radius: 4%;
-  background-color: #d53613;
-  box-shadow: inset -4px -4px 4px 1px #d53613, inset -7px -7px 4px 0 #d53613;
+  background-color: #0e4326;
+  box-shadow: inset -4px -4px 4px 1px #0e4326, inset -7px -7px 4px 0 #0e4326;
 }
 
 .layer1 {

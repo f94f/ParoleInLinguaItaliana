@@ -25,8 +25,13 @@
               <div class="right" :data-title="book.cover">
                 <div class="cover"></div>
                 <div class="contents">
-                  <h1>{{ book.title }}</h1>
-                  <p>{{ book.context }}</p>
+                  <h2>{{ book.title }}</h2>
+                  <span class="space"></span>
+                  <span>
+                    <p class="content-text">{{ book.context }}</p>
+                    <a v-if="book.route != '/'" :href="book.route" class="link-btn">+</a>
+                    <!-- <a href="" class="link-btn" @click.prevent="msgAlert()">+</a> -->
+                  </span>
                 </div>
               </div>
               <div class="top"></div>
@@ -38,7 +43,7 @@
     </div>
   </template>
   
-  <script>
+<script>
   import { books } from './inventory'
   // import Book from "@/components/scuola/biblioteca/BookComponent.vue";
 
@@ -49,14 +54,9 @@
       return { }
     },
     methods: {
-      closeCover() {
-        //   $( ".cover" ).click(function() {
-        //     if (  $( this ).css( "transform" ) == 'none' ){
-        //         $(this).css("transform","rotate(45deg)");
-        //     } else {
-        //         $(this).css("transform","" );
-        //     }
-        // });
+      msgAlert() {
+        alert("Hello");
+        console.log("Hola");
       }
     },
     mounted() {},
@@ -64,12 +64,41 @@
       return { books }
     }
   };
-  </script>
+</script>
   
-  <style lang="scss" scoped>
+<style lang="scss" scoped>
   .biblioteca-content {
     opacity: 1;
   }
+  .content-text {
+    padding-top: 15px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+  }
+  // .space {
+  //   height: 30px;
+  //   width: 15px;
+  // }
+  .link-btn{
+    margin-top: 15px;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background: #6cbefd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    transition: .3s;
+  }
+
 
   $sqSize: 18px;
   $contW: 100%;
@@ -402,7 +431,7 @@
           //Abre el libro
           label:nth-child(#{$i + $bookStart - 1}) .block-inner {
               animation: viewBook $trans $trans linear forwards;
-              //& { //Se quita hover para abrir de una vez
+              // & { //Se quita hover para abrir de una vez
               &:hover {
                   .right::after, .cover {
                       transform: rotateY(-135deg);

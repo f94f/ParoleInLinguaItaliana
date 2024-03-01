@@ -1,16 +1,30 @@
 <template>
     <div id="introText">
-        <h2>BIENVENIDOS A NUESTRA PAGINA WEB</h2>
-        <p><span class="italic">Parole In Lingua Italiana</span> es una joven y pequeña realidad con la cual queremos ayudar en el conocimiento de la lengua italiana y su cultura. </p> 
-        <p>Hemos acumulado experiencia por más de 20 años, como docentes altamente calificados y como enseñantes madre lengua italiana. </p>
-        <p>Hemos acompañado y mediado a más de 2000 personas en su trayectoria y pasaje de la lengua nativa al idioma italiano; además de la preparación para la certificación oficial como competencia de la lengua italiana. </p>
-        <p>Te invitamos a interactuar con el menú de la derecha para entrar más en detalle con lo que te interesa. Exámenes, Cursos, Consejos, etc. </p>
+        <van-row :gutter="[0, 13]" justify="center">
+            <van-col span="11">
+                <h2>BIENVENIDOS A NUESTRA PAGINA WEB</h2>
+                <p><span class="text-bold">Parole In Lingua Italiana</span> es una joven y pequeña realidad a través de la cual ofrecemos el conocimiento de la lengua italiana y de su cultura.</p>
+                <p>Hemos acompañado a más de 2000 personas, tanto en su trayectoria de aprendizaje del idioma, como, en la preparación para la certificación oficial.</p>
+                <p>Para una mayor información te invitamos a explorar en nuestra biblioteca, los libros (exámenes, cursos, asesorías…).</p>
+                <br/><br/>
+            </van-col>
+        
+            <van-col span="11" offset="1">
+                <h2>BENVENUTI NELLA NOSTRA PAGINA WEB</h2>
+                <p><span class="text-bold">Parole In Lingua Italiana</span> è una giovane e piccola realtà attraverso la quale offriamo la conoscenza della lingua italiana e della sua cultura.</p>
+                <p>Abbiamo accompagnato più di 2.000 persone sia nel percorso di apprendimento linguistico, sia, nella preparazione alla certificazione ufficiale.</p>
+                <p>Per un maggiore approfondimento, ti invitiamo a esplorare nella nostra biblioteca i libri (esami, corsi, consulenza, ecc.).</p>
+                <br/><br/>
+            </van-col>
+        </van-row>
     </div>
 </template>
 
 <style scoped>
 .italic {
-    font-style: italic;
+    /* font-style: italic; */
+    font-family: 'Eras Bold ITC', serif !important;
+    font-weight: bold;
 }
 
 #introText {

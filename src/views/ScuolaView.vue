@@ -1,7 +1,6 @@
 <template>
   <div class="scuola">
     <!-- <van-col class = "logo_box" call="logo_box" span="100"> -->
-      <div class="pli-logo"><LogoBox/></div>
     <!-- </van-col> -->
     
     <div class="pli-context">
@@ -24,12 +23,24 @@
           </div>
         </van-col>
       </van-row>
+
+      <!-- <van-row :gutter="[0, 13]" justify="center">
+        <van-col class="pil-context" span="11">
+          <van-row :gutter="[0, 10]">
+            <van-col class="" span="24">
+              <div class="contact-box"><ContactBox/></div>
+            </van-col>
+          </van-row>
+        </van-col>
+        
+        <van-col span="11" offset="1"></van-col>
+      </van-row> -->
     </div>
   </div>
 </template>
 
 <script>
-import LogoBox from "@/components/scuola/LogoBox.vue";
+// import LogoBox from "@/components/scuola/LogoBox.vue";
 import IntroBox from "@/components/scuola/IntroBox.vue";
 import ContactBox from "@/components/scuola/ContactBox.vue";
 import BibbliotecaBox from "@/components/scuola/biblioteca/BibliotecaComponent.vue";
@@ -37,7 +48,7 @@ import BibbliotecaBox from "@/components/scuola/biblioteca/BibliotecaComponent.v
 export default {
   name: "ScuolaView",
   components: {
-    LogoBox, 
+    // LogoBox, 
     IntroBox, 
     ContactBox, 
     BibbliotecaBox
@@ -61,7 +72,7 @@ export default {
   .biblioteca-box {
     /* background-color: white; */
     /* height: 82vh; */
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
     position: relative;
     background-image: url("../assets/img/library-3_a80.png");
     height: 100%;
@@ -76,7 +87,7 @@ export default {
     margin-top: 8px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 990px) {
     .intro-box {
       margin: 2px;
       width: 99vw;
@@ -86,7 +97,7 @@ export default {
       width: 98vw;
     }
     .contact-box {
-      margin: 2px;
+      margin: 5px;
       width: 99vw;
       /* position: fixed;
       bottom: 0; */

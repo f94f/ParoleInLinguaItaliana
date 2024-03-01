@@ -1,16 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/HomeView.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/dashboard',
-    name: 'Dashboard',
-    component: () => import('../views/DashboardView.vue')
+    name: 'Scuola',
+    component: () => import('../views/ScuolaView.vue')
   },
   {
     path: '/about',
@@ -18,14 +12,34 @@ const routes = [
     component: () => import('../views/AboutView.vue')
   },
   {
-    path: '/scuola',
-    name: 'Scuola',
-    component: () => import('../views/ScuolaView.vue')
+    path: '/certification',
+    name: 'Certification',
+    component: () => import('../views/CertificationView.vue')
   },
   {
-    path: '/test',
-    name: 'Test',
-    component: () => import('../views/TestView.vue')
+    path: '/citizenship',
+    name: 'Citizenship',
+    component: () => import('../views/CitizenshipView.vue')
+  },
+  {
+    path: '/qcer',
+    name: 'Qcer',
+    component: () => import('../views/QcerView.vue')
+  },
+  {
+    path: '/advice',
+    name: 'Advice',
+    component: () => import('../views/AdviceView.vue')
+  },
+  {
+    path: '/levels',
+    name: 'Levels',
+    component: () => import('../views/LevelsView.vue')
+  },
+  {
+    path: '/courses',
+    name: 'Courses',
+    component: () => import('../views/CoursesView.vue')
   }
 ]
 

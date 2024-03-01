@@ -1,5 +1,13 @@
 <template>
   <div class="context">
+  <!-- <div class="context">
+    <div class="argumento-section">
+      <h2>BIENVENIDOS A NUESTRA PAGINA WEB</h2>
+      <p><span class="italic">Parole In Lingua Italiana</span> es una joven y pequeña realidad con la cual queremos ayudar en el conocimiento de la lengua italiana y su cultura. </p> 
+      <p>Hemos acompañado y mediado a más de 2000 personas en su trayectoria y pasaje de la lengua nativa al idioma italiano; además de la preparación para la certificación oficial como competencia de la lengua italiana. </p>
+      <p>Te invitamos a interactuar con el menú de la derecha para entrar más en detalle con lo que te interesa. Exámenes, Cursos, Consejos, etc. </p>
+    </div>
+  </div> -->
   <div class="scene">
     <div class="book-wrap">
       <div class="left-side">
@@ -22,16 +30,17 @@
             <div class="corner2"></div>
             <div class="corner-fold"></div>
             <div class="page-text w-richtext">
-              <h3><strong>QUIENES SOMOS</strong></h3>
+              <h3><strong>NIVELES Y EVALUACIÓN</strong></h3>
               <h6>por <a href="/">PAROLE IN LINGUA ITALIANA</a> (ESPAÑOL)</h6>
               <p></p>
+              <p>Los <span class="text-bold">niveles</span> que ofrecemos <span class="text-bold">(A1, A2, B1, B2, C1, C2)</span> 
+                están basados y organizados según la propuesta del QCER.</p>
               <br/>
-              <p>Durante más de 20 años hemos conseguido la experiencia necesaria para ofrecer estrategias y 
-                métodos de enseñanza <span class="text-bold">por competencias.</span></p>
+              <p>Por solicitud del interesado se realiza una prueba al costo de una hora de clase para conocer el nivel del idioma.</p>
               <br/>
-              <p><span class="text-sub">NUESTRO MÉTODO:</span> Favorece en nuestros alumnos el aprendizaje de 
-                manera significativa y autónoma; puesto que quien concibe bien, es capaz de expresarse con claridad.</p>
-              <br/>
+              <p>Las <span class="text-bold">evaluaciones</span> propuestas durante el transcurso del curso permiten 
+                <span class="text-bold">comprobar las competencias comunicativas</span> y la 
+                <span class="text-bold">actitud</span> frente al nuevo idioma.</p>
             </div>
           </div>
         </div>
@@ -72,15 +81,14 @@
         <div class="layer-text right">
           <div class="page-right-2">
             <div class="page-text w-richtext">
-              <h3><strong>CHI SIAMO</strong></h3>
+              <h3><strong>LIVELLI E VALUTAZIONI</strong></h3>
               <h6>da <a href="/">PAROLE IN LINGUA ITALIANA</a> (ITALIANO) </h6>
               <p></p>
-              <p>Siamo due insegnanti, madrelingua italiana e madrelingua spagnola, qualificati, autori di libri didattici.</p>
+              <p>I <span class="text-bold">livelli</span> che offriamo <span class="text-bold">(A1, A2, B1, B2, C1, C2)</span> sono basati e organizzati secondo la proposta del QCER.</p>
               <br/>
-              <p>Per più di 20 anni abbiamo acquisito l'esperienza necessaria per offrire strategie e metodi di insegnamento <span class="text-bold">per competenze.</span></p>
+              <p>Su richiesta dell'interessato viene effettuato un test del costo di un'ora di lezione per conoscere il livello della lingua.</p>
               <br/>
-              <p><span class="text-sub">Il NOSTRO METODO:</span> Consente ai nostri alunni di imparare in maniera significativa e autonoma, perché, chi comprende bene è in grado di esprimersi con chiarezza.</p>
-              <br/>
+              <p>Le <span class="text-bold">valutazioni</span> proposte durante il corso permettono di accertare le <span class="text-bold">abilità</span> comunicative e l'attitudine verso la nuova lingua acquisita. </p>
             </div>
           </div>
         </div>
@@ -92,7 +100,7 @@
 
 <script>
   export default {
-    name: "AboutView",
+    name: "LevelsiView",
   };
 </script>
 
@@ -367,8 +375,8 @@ a {
   flex: 1;
   border-top-left-radius: 4%;
   border-bottom-left-radius: 4%;
-  background-color: #d53613;
-  box-shadow: inset 4px -4px 4px 1px #d53613, inset 7px -7px 4px 0 #d53613;
+  background-color: #ffa600;
+  box-shadow: inset 4px -4px 4px 1px #ffa600, inset 7px -7px 4px 0 #ffa600;
   -webkit-perspective: 4000px;
   perspective: 4000px;
   -webkit-transform: translate3d(0px, 0px, -1px);
@@ -384,8 +392,8 @@ a {
   flex: 1;
   border-top-right-radius: 4%;
   border-bottom-right-radius: 4%;
-  background-color: #d53613;
-  box-shadow: inset -4px -4px 4px 1px #d53613, inset -7px -7px 4px 0 #d53613;
+  background-color: #ffa600;
+  box-shadow: inset -4px -4px 4px 1px #ffa600, inset -7px -7px 4px 0 #ffa600;
 }
 
 .layer1 {

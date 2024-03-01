@@ -1,0 +1,53 @@
+{
+    "arguments": [{
+        "id": "1",
+        "route": "/argomenti",
+        "spine": "Quienes somos",
+        "cover": "Quienes somos",
+        "title": "QUIENES SOMOS",
+        "description": "Somos dos profesores, hablantes nativos de italiano y de español, calificados, autores de libros de didáctica. Durante más de 20 años hemos conseguido la experiencia necesaria para ofrecer estrategias y métodos de enseñanza por competencias que permite a los alumnos aprender de manera significativa y autónoma, puesto que quien entiende bien, es capaz de expresarse con claridad."
+    },{
+        "id": "2",
+        "route": "/argomenti",
+        "spine": "Examen de certificacion",
+        "cover": "Examen de certificacion",
+        "title": "EXAMEN DE CERTIFICACION",
+        "description": "La certificación tiene como finalidad determinar la confirmación de los conocimientos y las habilidades en el idioma a través de cinco (5) pruebas: una de competencia escrita, una oral, una de escucha, una gramatical, y una de lectura.<br/>Los niveles establecidos: A1, A2, B1, B1 ciudadanía, B2, C1, C2"
+    },{
+        "id": "3",
+        "route": "/argomenti",
+        "spine": "Examen de ciudadania italiana",
+        "cover": "Examen de ciudadania italiana",
+        "title": "EXAMEN DE CIUDADANIA ITALIANA",
+        "content": "A partir del 4 de diciembre del año 2018 se introdujo el art. 9.1 a la Ley No. 91 del 5 de febrero de 1992 en la cual se establecen los requisitos para la adquisición de la ciudadanía italiana.<br/>La certificación de ciudadanía italiana se realiza a través de cuatro (4) pruebas: una prueba escrita, una oral, una de escucha y una de comprensión de lectura y gramática incluida."
+    },{
+        "id": "4",
+        "route": "/argomenti",
+        "spine": "Niveles y evaluación",
+        "cover": "Niveles y evaluación",
+        "title": "NIVELES Y EVALUACION",
+        "content": "Los niveles que ofrecemos (A1, A2, B1, B2, C1, C2) están basados y organizados según la propuesta del QCER.<br/>Por solicitud del interesado se realiza una prueba al costo de una hora de clase para conocer el nivel del idioma en que se encuentra.<br/>Las evaluaciones propuestas durante el transcurso del curso facilitan al alumno a verificar el grado de conocimiento, su potencial y su actitud frente a la nueva lengua."
+    },{
+        "id": "5",
+        "route": "/argomenti",
+        "spine": "Asesoria",
+        "cover": "Asesoria",
+        "title": "ASESORIA",
+        "content": "Proponemos información en todos los aspectos relacionados con el idioma, tales como: certificaciones, traducción, universidad, papeleos, etc."
+    },{
+        "id": "6",
+        "route": "/argomenti",
+        "spine": "Cursos",
+        "cover": "Cursos",
+        "title": "CURSOS",
+        "content": "Ofrecemos clases individuales, grupales, de conversación, o, creadas según la exigencia y/o solicitud del interesado."
+    },{
+        "id": "7",
+        "route": "/argomenti",
+        "spine": "QCER",
+        "cover": "QCER",
+        "litle-title": "QCER",
+        "title": "EL CUADRO COMUNE EUROPEO REFERENTE AL CONOCIMIENTO DE UN SEGUNDO IDIOMA (QCER)",
+        "content": "El Consejo de Europa desde 1971 se propuso la finalidad de ampliar las fronteras de la educación lingüística, promover y apoyar el aprendizaje y la enseñanza de los diferentes idiomas; mejorar el diálogo intercultural; proteger la diversidad lingüística y cultural en europea y promover el derecho a una educación de calidad para todos.<br/>Se público en 2004 para tal fin, el Cuadro Común Europeo, referencia al aprendizaje de un segundo idioma (QCER) el cual, con base en la experiencia ha ido realizando las actualizaciones necesarias para tal fin."
+    }]
+}

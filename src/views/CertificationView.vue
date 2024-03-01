@@ -22,16 +22,12 @@
             <div class="corner2"></div>
             <div class="corner-fold"></div>
             <div class="page-text w-richtext">
-              <h3><strong>QUIENES SOMOS</strong></h3>
+              <h3><strong>EXAMEN DE CERTIFICACIÓN</strong></h3>
               <h6>por <a href="/">PAROLE IN LINGUA ITALIANA</a> (ESPAÑOL)</h6>
               <p></p>
-              <br/>
-              <p>Durante más de 20 años hemos conseguido la experiencia necesaria para ofrecer estrategias y 
-                métodos de enseñanza <span class="text-bold">por competencias.</span></p>
-              <br/>
-              <p><span class="text-sub">NUESTRO MÉTODO:</span> Favorece en nuestros alumnos el aprendizaje de 
-                manera significativa y autónoma; puesto que quien concibe bien, es capaz de expresarse con claridad.</p>
-              <br/>
+              <p>La certificación tiene como finalidad comprobar los conocimientos y 
+                las habilidades obtenidos en el idioma a través <span class="text-bold">de cinco </span>(5) <span class="text-bold">pruebas:</span> 
+                una prueba escrita, una prueba oral, una prueba de escucha, una prueba de gramática y una prueba de lectura.</p>
             </div>
           </div>
         </div>
@@ -72,15 +68,12 @@
         <div class="layer-text right">
           <div class="page-right-2">
             <div class="page-text w-richtext">
-              <h3><strong>CHI SIAMO</strong></h3>
+              <h3><strong>ESAME DI CERTIFICAZIONE</strong></h3>
               <h6>da <a href="/">PAROLE IN LINGUA ITALIANA</a> (ITALIANO) </h6>
               <p></p>
-              <p>Siamo due insegnanti, madrelingua italiana e madrelingua spagnola, qualificati, autori di libri didattici.</p>
-              <br/>
-              <p>Per più di 20 anni abbiamo acquisito l'esperienza necessaria per offrire strategie e metodi di insegnamento <span class="text-bold">per competenze.</span></p>
-              <br/>
-              <p><span class="text-sub">Il NOSTRO METODO:</span> Consente ai nostri alunni di imparare in maniera significativa e autonoma, perché, chi comprende bene è in grado di esprimersi con chiarezza.</p>
-              <br/>
+              <p>Lo scopo della certificazione è quello di verificare le conoscenze e le competenze conseguite 
+                nella lingua attraverso <span class="text-bold">cinque</span> (5) <span class="text-bold">prove:</span> 
+                una prova scritta, una prova orale, una prova di ascolto, una prova di grammatica e una prova di lettura.</p>
             </div>
           </div>
         </div>
@@ -92,7 +85,7 @@
 
 <script>
   export default {
-    name: "AboutView",
+    name: "ArgomentiView",
   };
 </script>
 
@@ -100,6 +93,7 @@
   .context{
     padding: 0px 50px;
   }
+  /* *********** */
   .page-text p {
     text-align: justify;
   }
@@ -367,8 +361,8 @@ a {
   flex: 1;
   border-top-left-radius: 4%;
   border-bottom-left-radius: 4%;
-  background-color: #d53613;
-  box-shadow: inset 4px -4px 4px 1px #d53613, inset 7px -7px 4px 0 #d53613;
+  background-color: #5a5b5b;
+  box-shadow: inset 4px -4px 4px 1px #5a5b5b, inset 7px -7px 4px 0 #5a5b5b;
   -webkit-perspective: 4000px;
   perspective: 4000px;
   -webkit-transform: translate3d(0px, 0px, -1px);
@@ -384,8 +378,8 @@ a {
   flex: 1;
   border-top-right-radius: 4%;
   border-bottom-right-radius: 4%;
-  background-color: #d53613;
-  box-shadow: inset -4px -4px 4px 1px #d53613, inset -7px -7px 4px 0 #d53613;
+  background-color: #5a5b5b;
+  box-shadow: inset -4px -4px 4px 1px #5a5b5b, inset -7px -7px 4px 0 #5a5b5b;
 }
 
 .layer1 {

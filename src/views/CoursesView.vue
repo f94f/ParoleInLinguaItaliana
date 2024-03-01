@@ -22,15 +22,10 @@
             <div class="corner2"></div>
             <div class="corner-fold"></div>
             <div class="page-text w-richtext">
-              <h3><strong>QUIENES SOMOS</strong></h3>
+              <h3><strong>CURSOS</strong></h3>
               <h6>por <a href="/">PAROLE IN LINGUA ITALIANA</a> (ESPAÑOL)</h6>
               <p></p>
-              <br/>
-              <p>Durante más de 20 años hemos conseguido la experiencia necesaria para ofrecer estrategias y 
-                métodos de enseñanza <span class="text-bold">por competencias.</span></p>
-              <br/>
-              <p><span class="text-sub">NUESTRO MÉTODO:</span> Favorece en nuestros alumnos el aprendizaje de 
-                manera significativa y autónoma; puesto que quien concibe bien, es capaz de expresarse con claridad.</p>
+              <p>Ofrecemos clases individuales, grupales, de conversación, o, creadas <span class="text-bold">según la exigencia</span> y/o solicitud del interesado.</p>
               <br/>
             </div>
           </div>
@@ -72,14 +67,10 @@
         <div class="layer-text right">
           <div class="page-right-2">
             <div class="page-text w-richtext">
-              <h3><strong>CHI SIAMO</strong></h3>
+              <h3><strong>CORSI</strong></h3>
               <h6>da <a href="/">PAROLE IN LINGUA ITALIANA</a> (ITALIANO) </h6>
               <p></p>
-              <p>Siamo due insegnanti, madrelingua italiana e madrelingua spagnola, qualificati, autori di libri didattici.</p>
-              <br/>
-              <p>Per più di 20 anni abbiamo acquisito l'esperienza necessaria per offrire strategie e metodi di insegnamento <span class="text-bold">per competenze.</span></p>
-              <br/>
-              <p><span class="text-sub">Il NOSTRO METODO:</span> Consente ai nostri alunni di imparare in maniera significativa e autonoma, perché, chi comprende bene è in grado di esprimersi con chiarezza.</p>
+              <p>Proponiamo lezioni individuali, di gruppo, di conversazione o create <span class="text-bold">in base all'esigenza</span> e/o a richiesta dell'interessato.</p>
               <br/>
             </div>
           </div>
@@ -92,7 +83,7 @@
 
 <script>
   export default {
-    name: "AboutView",
+    name: "CoursesView",
   };
 </script>
 
@@ -367,8 +358,8 @@ a {
   flex: 1;
   border-top-left-radius: 4%;
   border-bottom-left-radius: 4%;
-  background-color: #d53613;
-  box-shadow: inset 4px -4px 4px 1px #d53613, inset 7px -7px 4px 0 #d53613;
+  background-color: #221b59;
+  box-shadow: inset 4px -4px 4px 1px #221b59, inset 7px -7px 4px 0 #221b59;
   -webkit-perspective: 4000px;
   perspective: 4000px;
   -webkit-transform: translate3d(0px, 0px, -1px);
@@ -384,8 +375,8 @@ a {
   flex: 1;
   border-top-right-radius: 4%;
   border-bottom-right-radius: 4%;
-  background-color: #d53613;
-  box-shadow: inset -4px -4px 4px 1px #d53613, inset -7px -7px 4px 0 #d53613;
+  background-color: #221b59;
+  box-shadow: inset -4px -4px 4px 1px #221b59, inset -7px -7px 4px 0 #221b59;
 }
 
 .layer1 {
