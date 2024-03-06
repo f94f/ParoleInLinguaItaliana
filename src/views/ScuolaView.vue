@@ -87,7 +87,7 @@ export default {
     margin-top: 8px;
   }
 
-  @media (max-width: 990px) {
+  @media (max-width: 890px) {
     .intro-box {
       margin: 2px;
       width: 99vw;

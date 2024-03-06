@@ -1,0 +1,58 @@
+{
+    "book_1": { 
+        "id": "1",
+        "link": "/about",
+        "color": "#d53613",
+        "content_es": "Quien_somos",
+        "content_it": "Chi_siamo"
+    },
+    "book_2": { 
+        "id": "2",
+        "link": "/certification",
+        "color": "#5a5b5b",
+        "content_es": "Certificación",
+        "content_it": "Certificazione"
+    },
+    "book_3": { 
+        "id": "3",
+        "link": "/citizenship",
+        "color": "#0e4326",
+        "content_es": "Ciudadanía",
+        "content_it": "Cittadinanza"
+    },
+    "book_4": { 
+        "id": "4",
+        "link": "/qcer",
+        "color": "#0066cc",
+        "content_es": "MCER",
+        "content_it": "QCER"
+    },
+    "book_5": { 
+        "id": "5",
+        "link": "/advice",
+        "color": "#222222",
+        "content_es": "Asesoría",
+        "content_it": "Consulenza"
+    },
+    "book_6": { 
+        "id": "6",
+        "link": "/levels",
+        "color": "#ffa600",
+        "content_es": "Niveles",
+        "content_it": "Livelli"
+    },
+    "book_7": { 
+        "id": "7",
+        "link": "/courses",
+        "color": "#221b59",
+        "content_es": "Cursos",
+        "content_it": "Corsi"
+    },
+    "book_0": { 
+        "id": "0",
+        "link": "/",
+        "color": "#ffffff",
+        "content_es": "Quien_somos",
+        "content_it": "Chi_siamo"
+    }
+}

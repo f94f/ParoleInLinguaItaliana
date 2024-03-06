@@ -1,0 +1,66 @@
+{
+    "about":
+    { 
+        "id": "1", 
+        "title_es": "QUIENES SOMOS", 
+        "link_es": "<h6>por <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ESPAÑOL)</h6>",
+        "content_es": "<span class=\"text\"><p>Somos dos profesores, hablantes nativos de italiano y de español, calificados, autores de libros de didáctica.</p><p>Durante más de 20 años hemos conseguido la experiencia necesaria para ofrecer estrategias y métodos de enseñanza <span class=\"text-bold\">por competencias.</span></p><p><span class=\"text-sub\">NUESTRO MÉTODO:</span> Favorece en nuestros alumnos el aprendizaje de manera significativa y autónoma; puesto que quien concibe bien, es capaz de expresarse con claridad.</p></span><br/>",
+        "title_it": "QUIENES SOMOS",
+        "link_it": "<h6>da <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ITALIANO)</h6>",
+        "content_it": "<span class=\"text\"><p>Siamo due insegnanti, madrelingua italiana e madrelingua spagnola, qualificati, autori di libri didattici.</p><p>Per più di 20 anni abbiamo acquisito l'esperienza necessaria per offrire strategie e metodi di insegnamento <span class=\"text-bold\">per competenze.</span></p><p><span class=\"text-sub\">Il NOSTRO METODO:</span> Consente ai nostri alunni di imparare in maniera significativa e autonoma, perché, chi comprende bene è in grado di esprimersi con chiarezza.</p></span><br/>"
+    },
+    "certification": { 
+        "id": "2",
+        "title_es": "EXAMEN DE CERTIFICACIÓN", 
+        "link_es": "<h6>por <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ESPAÑOL)</h6>",
+        "content_es": "<span class=\"text\"><p>La certificación tiene como finalidad comprobar los conocimientos y las habilidades obtenidos en el idioma a través de <span class=\"text-bold\">cinco</span> (5) <span class=\"text-bold\">pruebas:</span> una prueba escrita, una prueba oral, una prueba de escucha, una prueba de gramática y una prueba de lectura.</p></span><br/>",
+        "title_it": "ESAME DI CERTIFICAZIONE",
+        "link_it": "<h6>da <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ITALIANO)</h6>",
+        "content_it": "<span class=\"text\"><p>Lo scopo della certificazione è quello di verificare le conoscenze e le competenze conseguite nella lingua attraverso <span class=\"text-bold\">cinque</span> (5) <span class=\"text-bold\">prove:</span>una prova scritta, una prova orale, una prova di ascolto, una prova di grammatica e una prova di lettura.</p></span><br/>"
+    },
+    "citizenship": { 
+        "id": "3",
+        "title_es": "EXAMEN DE CIUDADANÍA ITALIANA", 
+        "link_es": "<h6>por <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ESPAÑOL)</h6>",
+        "content_es": "<span class=\"text\"><p>A partir del 4 de diciembre del año 2018 se introdujo el articulo 9.1 a la Ley No. 91 del 5 de febrero de 1992 en la cual se establecen los requisitos para la adquisición de la ciudadanía italiana.</p><p><span class=\"text-bold\">La certificación de ciudadanía</span> italiana se realiza a través de cuatro <span class=\"text-bold\">(4)</span> <span class=\"text-bold\">pruebas:</span> una prueba escrita, una oral, una de escucha y una de comprensión de lectura y gramática incluida.</p></span><br/>",
+        "title_it": "ESAME CITTADINANZA ITALIANA",
+        "link_it": "<h6>da <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ITALIANO)</h6>",
+        "content_it": "<span class=\"text\"><p>Dal 4 dicembre 2018 si è stabilito l’art. 9.1 alla legge 5 febbraio 1992 sui requisiti per l’acquisizione della cittadinanza italiana.</p><p><span class=\"text-bold\">La certificazione della cittadinanza</span> italiana si effettua attraverso quattro <span class=\"text-bold\">(4) prove:</span> una prova scritta, una prova orale, una prova di ascolto e una prova di comprensione del testo che include la grammatica.</p></span><br/>"
+    },
+    "qcer": { 
+        "id": "4",
+        "title_es": "EL MARCO COMUNE EUROPEO REFERENCIA AL APRENDIZAJE DE UN SEGUNDO IDIOMA (MCER)", 
+        "link_es": "<h6>por <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ESPAÑOL)</h6>",
+        "content_es": "<span class=\"text\"><p>El Concejo de Europa, motivado por el prominente cambio de los conocimientos teóricos, y de las habilidades técnicas en materia lingüística y por el anhelo de una sociedad abierta a la innovación; expresó la necesidad de renovar el aprendizaje y la enseñanza de la educación y proteger la diversidad lingüística y cultural a través de la unificación fronteriza de los programas lingüísticos, del dialogo intercultural y del fortalecimiento <span class=\"text-bold\">al derecho por una educación de calidad para todos.</span></p><p>La Unión Europea, propuso, por tanto, el Marco Común Europeo referencia al aprendizaje de un segundo idioma (<span class=\"text-bold\">MCER</span>) como <span class=\"text-bold\">instrumento</span> para facilitar la enseñanza de los idiomas, la homologación de los títulos adquiridos en cada nación y facilitar el desarrollo por competencias del estudiante.<p></p>Compartimos el siguiente enlace: (<a href=\"https://rm.coe.int/quadro-comune-europeo-di-riferimento-per-le-lingue-apprendimento-inseg/1680a52d52\" target=\"_blank\">MCER</a>)</p></span><br/>",
+        "title_it": "QUADRO COMUNE EUROPEO DI RIFERIMENTO PER LE LINGUE (QCER)",
+        "link_it": "<h6>da <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ITALIANO)</h6>",
+        "content_it": "<span class=\"text\"><p>Il Consiglio d’ Europa basato nel cambiamento, non solo delle conoscenze teoriche e delle abilità tecniche linguistiche, ma, di una società interessata alle innovazioni, mira a rinnovare l’apprendimento e l’insegnamento dell’educazione, alla protezione della diversità linguistica e culturale attraverso l’apertura delle frontiere e l’unificazione dei programmi linguistici, il dialogo interculturale e il <span class=\"text-bold\">diritto ad un’istruzione di qualità per tutti.</span></p><p>L'Unione Europea ha quindi proposto il Quadro comune europeo di riferimento per le lingue (QCER) come strumento per facilitare l’insegnamento, l’omologazione delle qualifiche acquisite in ciascuna nazione e facilitare lo sviluppo delle competenze linguistiche degli studenti.</p><p>A vostro interessamento, condividiamo il seguente link: (<a href=\"https://rm.coe.int/quadro-comune-europeo-di-riferimento-per-le-lingue-apprendimento-inseg/1680a52d52\" target=\"_blank\">QCER</a>)</p></span><br/>"
+    },
+    "advice": { 
+        "id": "5",
+        "title_es": "ASESORÍA", 
+        "link_es": "<h6>por <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ESPAÑOL)</h6>",
+        "content_es": "<span class=\"text\"><p>Ofrecemos <span class=\"text-bold\">información</span> en los aspectos relacionados con el <span class=\"text-bold\">idioma</span>, tales como: certificaciones, traducción, universidad, papeleos y otros.</p></span><br/>",
+        "title_it": "CONSULENZA",
+        "link_it": "<h6>da <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ITALIANO)</h6>",
+        "content_it": "<span class=\"text\"><p>Offriamo <span class=\"text-bold\">informazioni</span> su tutti gli aspetti legati alla <span class=\"text-bold\">lingua</span> (certificazioni, traduzioni, università, pratiche burocratiche, ecc.).</p></span><br/>"
+    },
+    "levels": { 
+        "id": "6",
+        "title_es": "NIVELES Y EVALUACIÓN", 
+        "link_es": "<h6>por <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ESPAÑOL)</h6>",
+        "content_es": "<span class=\"text\"><p>Los <span class=\"text-bold\">niveles</span> que ofrecemos <span class=\"text-bold\">(A1, A2, B1, B2, C1, C2)</span> están basados y organizados según la propuesta del MCER.</p><p>Por solicitud del interesado se puede saber el nivel del idioma en el que se encuentra por medio de una valoración del costo de una hora de clase. </p><p>Las <span class=\"text-bold\">evaluaciones</span> propuestas durante el tiempo del curso permiten <span class=\"text-bold\">monitorear las habilidades comunicativas que se han ido potenciando</span> y la <span class=\"text-bold\">actitud</span> que demuestra frente al nuevo idioma.</p><p>Basados en el <span class=\"text-bold\">Marco Común Europeo, referencia al aprendizaje de un segundo idioma</span> (MCER), presentamos a continuación la <span class=\"text-bold\">tabla</span> de <span class=\"text-bold\">autoevaluación por nivel.</span></p></span><i class=\"fa-regular fa-hand-point-down\"></i><br/>",
+        "title_it": "LIVELLI E VALUTAZIONI",
+        "link_it": "<h6>da <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ITALIANO)</h6>",
+        "content_it": "<span class=\"text\"><p>I <span class=\"text-bold\">livelli</span> che offriamo <span class=\"text-bold\">(A1, A2, B1, B2, C1, C2)</span> sono basati e organizzati secondo la proposta del QCER.</p><p>Su richiesta dell’interessato viene effettuato un test del costo di un’ora di lezione per conoscere il livello della lingua.</p><p>Le <span class=\"text-bold\">valutazioni</span> proposte durante il corso permettono di accertare le <span class=\"text-bold\">abilità</span> comunicative e l’attitudine verso la nuova lingua acquisita. </p><p>Basati sul <span class=\"text-bold\">Quadro Comune Europeo di Riferimento per le lingue</span> (QCER) presentiamo in seguito, la <span class=\"text-bold\">tabella</span> di <span class=\"text-bold\">autovalutazione per livello.</span></p></span><i class=\"fa-regular fa-hand-point-down\"></i><br/>"
+    },
+    "courses": { 
+        "id": "7",
+        "title_es": "CURSOS", 
+        "link_es": "<h6>por <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ESPAÑOL)</h6>",
+        "content_es": "<span class=\"text\"><p>Se proponen clases individuales, grupales, de conversación; o creadas, <span class=\"text-bold\">según la exigencia</span> y/o solicitud del interesado.</p></span><br/>",
+        "title_it": "CORSI",
+        "link_it": "<h6>da <a class=\"text-link\" href=\"/\">PAROLE IN LINGUA ITALIANA</a> (ITALIANO)</h6>",
+        "content_it": "<span class=\"text\"><p>Proponiamo lezioni individuali, di gruppo, di conversazione o create <span class=\"text-bold\">in base all'esigenza</span> e/o a richiesta dell'interessato.</p></span><br/>"
+    }
+}

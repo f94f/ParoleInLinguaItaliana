@@ -1,7 +1,7 @@
 <template>
     <div class="container">
       <form v-if="!submitted" @submit.prevent="submitForm">
-        <h3>CONTACTANOS!/CONTATTACI!</h3>
+        <h3>CONTACTANOS! / CONTATTACI!</h3>
         <label>
           <input type="email" name="email" placeholder="EMail" v-model="email" />
         </label>

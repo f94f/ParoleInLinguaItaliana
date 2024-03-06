@@ -61,6 +61,17 @@
   .logo_box {
     margin-top: 8px;
   }
+  .text {
+    font-family: 'Segoe UI Light', serif;
+    font-size: 16px;
+  }
+  .text-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+  }
   .text-bold {
     font-family: 'Eras Bold ITC', serif;
     font-weight: bold;
@@ -68,5 +79,20 @@
   .text-sub {
     font-family: 'Segoe UI Light', serif;
     text-decoration: underline;
+  }
+  .text-link {
+    color: #da5a13;
+    text-decoration: underline;
+  }
+  .argumento-section {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: white;
+    text-align: justify;
+    padding: 0px 20px;
+    widows: 100%;
+  }
+  .page-text p {
+    text-align: justify;
   }
 </style>
