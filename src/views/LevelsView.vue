@@ -89,7 +89,7 @@
           <van-col span="1"><van-button :color="segnalibri['book_5'].color" @click="navigate(segnalibri['book_5'].link)">{{ segnalibri['book_5'].content_es }}</van-button></van-col>
           <van-col span="1"><van-button :color="segnalibri['book_6'].color" @click="navigate(segnalibri['book_6'].link)">{{ segnalibri['book_6'].content_es }}</van-button></van-col>
           <van-col span="1"><van-button :color="segnalibri['book_7'].color" @click="navigate(segnalibri['book_7'].link)">{{ segnalibri['book_7'].content_es }}</van-button></van-col>
-          <van-col span="1"><van-button type="default"><i class="fa-solid fa-house-chimney"></i></van-button></van-col>
+          <van-col span="1"><van-button type="default" @click="navigate(segnalibri['book_0'].link)"><i class="fa-solid fa-house-chimney"></i></van-button></van-col>
         </van-row>
         <br/>
         <div>
