@@ -81,41 +81,55 @@
       </van-tabs>
       <br/>
       <div v-if="language==0">
-        <van-row justify="space-between">
-          <van-col span="1"><van-button :color="segnalibri['book_1'].color" @click="navigate(segnalibri['book_1'].link)">{{ segnalibri['book_1'].content_es }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_2'].color" @click="navigate(segnalibri['book_2'].link)">{{ segnalibri['book_2'].content_es }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_3'].color" @click="navigate(segnalibri['book_3'].link)">{{ segnalibri['book_3'].content_es }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_4'].color" @click="navigate(segnalibri['book_4'].link)">{{ segnalibri['book_4'].content_es }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_5'].color" @click="navigate(segnalibri['book_5'].link)">{{ segnalibri['book_5'].content_es }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_6'].color" @click="navigate(segnalibri['book_6'].link)">{{ segnalibri['book_6'].content_es }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_7'].color" @click="navigate(segnalibri['book_7'].link)">{{ segnalibri['book_7'].content_es }}</van-button></van-col>
-          <van-col span="1"><van-button type="default" @click="navigate(segnalibri['book_0'].link)"><i class="fa-solid fa-house-chimney"></i></van-button></van-col>
-        </van-row>
-        <br/>
-        <div>
-          <h3><strong v-html="argomenti['levels'].title_es"></strong></h3>
-          <span v-html="argomenti['levels'].link_es"></span>
-          <span v-html="argomenti['levels'].content_es"></span>
+          <van-row justify="space-between">
+            <!-- <van-col span="1"><van-button :color="segnalibri['book_1'].color" @click="navigate(segnalibri['book_1'].link)">{{ segnalibri['book_1'].content_es }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_2'].color" @click="navigate(segnalibri['book_2'].link)">{{ segnalibri['book_2'].content_es }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_3'].color" @click="navigate(segnalibri['book_3'].link)">{{ segnalibri['book_3'].content_es }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_4'].color" @click="navigate(segnalibri['book_4'].link)">{{ segnalibri['book_4'].content_es }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_5'].color" @click="navigate(segnalibri['book_5'].link)">{{ segnalibri['book_5'].content_es }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_6'].color" @click="navigate(segnalibri['book_6'].link)">{{ segnalibri['book_6'].content_es }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_7'].color" @click="navigate(segnalibri['book_7'].link)">{{ segnalibri['book_7'].content_es }}</van-button></van-col> -->
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_1'].color" @click="navigate(segnalibri['book_1'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_1'].content_es }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_2'].color" @click="navigate(segnalibri['book_2'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_2'].content_es }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_3'].color" @click="navigate(segnalibri['book_3'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_3'].content_es }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_4'].color" @click="navigate(segnalibri['book_4'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_4'].content_es }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_5'].color" @click="navigate(segnalibri['book_5'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_5'].content_es }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_6'].color" @click="navigate(segnalibri['book_6'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_6'].content_es }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_7'].color" @click="navigate(segnalibri['book_7'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_7'].content_es }}</span></van-button></van-col>
+            <van-col span="3"><van-button type="default" @click="navigate(segnalibri['book_0'].link)"><i class="fa-solid fa-house-chimney"></i></van-button></van-col>
+          </van-row>
+          <br/>
+          <div>
+            <h3><strong v-html="argomenti['levels'].title_es"></strong></h3>
+            <span v-html="argomenti['levels'].link_es"></span>
+            <span v-html="argomenti['levels'].content_es"></span>
+          </div>
         </div>
-      </div>
-      <div v-else>
-        <van-row justify="space-between">
-          <van-col span="1"><van-button :color="segnalibri['book_1'].color" @click="navigate(segnalibri['book_1'].link)">{{ segnalibri['book_1'].content_it }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_2'].color" @click="navigate(segnalibri['book_2'].link)">{{ segnalibri['book_2'].content_it }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_3'].color" @click="navigate(segnalibri['book_3'].link)">{{ segnalibri['book_3'].content_it }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_4'].color" @click="navigate(segnalibri['book_4'].link)">{{ segnalibri['book_4'].content_it }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_5'].color" @click="navigate(segnalibri['book_5'].link)">{{ segnalibri['book_5'].content_it }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_6'].color" @click="navigate(segnalibri['book_6'].link)">{{ segnalibri['book_6'].content_it }}</van-button></van-col>
-          <van-col span="1"><van-button :color="segnalibri['book_7'].color" @click="navigate(segnalibri['book_7'].link)">{{ segnalibri['book_7'].content_it }}</van-button></van-col>
-          <van-col span="1"><van-button type="default" @click="navigate(segnalibri['book_0'].link)"><i class="fa-solid fa-house-chimney"></i></van-button></van-col>
-        </van-row>
-        <br/>
-        <div>
-          <h3><strong v-html="argomenti['levels'].title_it"></strong></h3>
-          <span v-html="argomenti['levels'].link_it"></span>
-          <span v-html="argomenti['levels'].content_it"></span>
+        <div v-else>
+          <van-row justify="space-between">
+            <!-- <van-col span="1"><van-button :color="segnalibri['book_1'].color" @click="navigate(segnalibri['book_1'].link)">{{ segnalibri['book_1'].content_it }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_2'].color" @click="navigate(segnalibri['book_2'].link)">{{ segnalibri['book_2'].content_it }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_3'].color" @click="navigate(segnalibri['book_3'].link)">{{ segnalibri['book_3'].content_it }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_4'].color" @click="navigate(segnalibri['book_4'].link)">{{ segnalibri['book_4'].content_it }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_5'].color" @click="navigate(segnalibri['book_5'].link)">{{ segnalibri['book_5'].content_it }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_6'].color" @click="navigate(segnalibri['book_6'].link)">{{ segnalibri['book_6'].content_it }}</van-button></van-col>
+            <van-col span="1"><van-button :color="segnalibri['book_7'].color" @click="navigate(segnalibri['book_7'].link)">{{ segnalibri['book_7'].content_it }}</van-button></van-col> -->
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_1'].color" @click="navigate(segnalibri['book_1'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_1'].content_it }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_2'].color" @click="navigate(segnalibri['book_2'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_2'].content_it }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_3'].color" @click="navigate(segnalibri['book_3'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_3'].content_it }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_4'].color" @click="navigate(segnalibri['book_4'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_4'].content_it }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_5'].color" @click="navigate(segnalibri['book_5'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_5'].content_it }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_6'].color" @click="navigate(segnalibri['book_6'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_6'].content_it }}</span></van-button></van-col>
+            <van-col span="3"><van-button class="tooltip" :color="segnalibri['book_7'].color" @click="navigate(segnalibri['book_7'].link)"><i class="fa-solid fa-book"></i><span class="tooltiptext">{{ segnalibri['book_7'].content_it }}</span></van-button></van-col>
+            <van-col span="3"><van-button type="default" @click="navigate(segnalibri['book_0'].link)"><i class="fa-solid fa-house-chimney"></i></van-button></van-col>
+          </van-row>
+          <br/>
+          <div>
+            <h3><strong v-html="argomenti['levels'].title_it"></strong></h3>
+            <span v-html="argomenti['levels'].link_it"></span>
+            <span v-html="argomenti['levels'].content_it"></span>
+          </div>
         </div>
-      </div>
     </div>
     <br/>
     <div class="argumento-section">

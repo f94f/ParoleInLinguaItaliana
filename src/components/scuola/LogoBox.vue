@@ -2,7 +2,7 @@
     <div>
         <!-- <img class="logo" alt="Web Page logo" id="img" src="../../assets/piliLogo.png"> -->
         <div class="container">
-            <div class="barrage">
+            <div class="barrage" @click="navigateHome()">
                 <img class="logo" alt="Web Page logo" id="img" src="../../assets/logo_simple.png">
             </div>
             <!-- <button type="button" class="btn" id="send" @click="sendRandomBarrage()">SEND</button> -->
@@ -40,6 +40,9 @@
             }
         },
         methods: {
+            navigateHome() {
+                this.$router.push({ path: '/' })
+            },
             getY() {
                 var ele =  document.getElementsByClassName("barrage")[0];
                 var elemHeight = 3;
@@ -156,6 +159,7 @@
         /* width: 94%;
         height: 95%; */
         width: 100%;
+        cursor: pointer;
     }
 </style>
 
