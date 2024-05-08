@@ -1,5 +1,15 @@
 <template>
+  
     <div class="biblioteca-content">
+      <!-- <div class="anouncement-section" style="position: absolute;">
+        <span>
+          <p>Sono aperte le iscrizioni per il prossimo bimestre da lunedì a venerdì, che iniziano il 6 maggio e terminano il 13 giugno.</p>
+          <p>Orari disponibili:</p>
+          <p>7:00 - 9:00</p>
+          <p>9:00 - 11:00</p>
+          <p>18:00 - 20:00</p>
+        </span>
+      </div> -->
       <form class="container">
         <input type="radio" name="title" id="book1" />
         <input type="radio" name="title" id="book2" />

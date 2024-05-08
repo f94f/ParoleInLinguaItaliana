@@ -96,8 +96,17 @@
     text-align: justify;
   }
 
+  .anouncement-section {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: white;
+    text-align: justify;
+    padding: 20px 20px;
+    width: 500px;
+  }
+
    /* Tooltip text */
-   .tooltip .tooltiptext {
+  .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: black;
